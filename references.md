@@ -1,6 +1,10 @@
 # 参考资料池
 
-这里收集和 VR / 3D / Agent / 游戏开发相关的资料。先放链接即可，之后再分类整理。
+这里收集和 Vibe 游戏开发相关的补充资料。
+
+**主手册（双语维护）**：
+- English: [AI-Game-Dev-Guide.md](./AI-Game-Dev-Guide.md)
+- 中文: [AI-Game-Dev-Guide.zh.md](./AI-Game-Dev-Guide.zh.md)
 
 **主手册**：
 - English: [AI-Game-Dev-Guide.md](./AI-Game-Dev-Guide.md)
