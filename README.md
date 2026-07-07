@@ -1,45 +1,59 @@
-# VR/3D Agent
+# Vibe Game Development Handbook
 
-根据你的想法生成、摆布 3D 场景，在 VR 或 3D 环境里跟 Agent 一起搭世界。
+A practical, living handbook for building games through "vibe coding" — using AI (especially powerful models like Claude Fable 5) together with modern tools to go from idea to playable prototype extremely fast.
 
-这个仓库用于收集参加活动的想法、参考链接、MVP 方案和后续实验记录。项目还在初步规划阶段，不要求一定做 VR；只要你对游戏开发、3D 场景、Agent、VibeGame、Unity、虚拟角色或 AI 世界构建感兴趣，都可以把材料放进来。
+This repository has evolved from a 3D/VR idea collection into a focused manual for AI-assisted game development.
 
-## 当前 MVP 想法
+## Languages
 
-先找或做一个简单的 3D 建模/场景，然后给它配上 AI 能力，让 Agent 能参与到场景理解、摆放、交互或角色行为里。
+- English: [AI-Game-Dev-Guide.md](./AI-Game-Dev-Guide.md)
+- 中文: [AI-Game-Dev-Guide.zh.md](./AI-Game-Dev-Guide.zh.md)
 
-可能的最小切入点：
+## What is "Vibe Game Development"?
 
-- 输入一句话，生成或修改一个简单 3D 场景
-- 在 Unity / Web 3D / VibeGame 中接入一个能对话的 Agent
-- 让 Agent 控制一个 3D 角色，完成简单任务
-- 把已有 3D 模型接上语音、文本或动作交互
-- 做一个可在桌面运行的 3D 原型，VR 作为后续扩展
+Vibe coding means describing what you want at a high level and letting strong AI models (combined with image generation, 3D tools, MCP servers, etc.) handle the heavy lifting of implementation, iteration, and even asset integration.
 
-## 可以提交什么
+This handbook focuses on real-world patterns that work in 2026:
+- Using Claude Fable 5 (and similar) for rapid full-game prototyping
+- Hybrid workflows (AI image gen + AI coding)
+- 2D, 3D (Three.js), Godot, Unity, VRChat, and no-engine approaches
+- Asset pipelines (2D, 3D, audio)
+- Practical resources and community examples
 
-欢迎用 Issue、PR 或直接提交文档的方式补充：
+## Contents
 
-- 项目想法
-- 技术路线
-- 参考项目
-- 论文、文章、视频、Demo 链接
-- Unity / Godot / Three.js / WebXR / VibeGame 相关资料
-- 3D 模型、Agent 交互、游戏玩法方向
-- MVP 拆解和任务认领
+The main handbook covers:
+- Fable 5 capabilities for game dev
+- 2D games (danmaku, rhythm, pixel, platformers)
+- 3D web experiences with Three.js
+- Hybrid Image-2 + coding workflows
+- Camera/MediaPipe interactions
+- VR / VRChat development
+- Engine + MCP full pipelines (Godot, Unity, Blender)
+- Text/ADV/galgame style games
+- Procedural generation & remasters
+- AI art, 3D modeling (Seed3D, Meshy, etc.), and audio pipelines
+- Resources and community projects
 
-## 文档入口
+## Community Contributions
 
-- [ideas.md](ideas.md)：想法池
-- [references.md](references.md)：参考资料池
+This is primarily a handbook, but we still welcome contributions:
 
-## 参与方式
+- New ideas and experiments → [ideas.md](./ideas.md)
+- Useful links and references → [references.md](./references.md)
+- Improvements or translations to the handbook (please keep English and Chinese versions in sync)
 
-1. 先把粗糙想法写下来，不用等它完整。
-2. 如果看到有用的链接，放到 `references.md`。
-3. 如果想推进某个方向，可以开 Issue 描述目标、技术栈和最小 Demo。
-4. 后续我们再把重复或相近的想法合并成几个可执行的 MVP。
+## Getting Started
+
+1. Read the handbook in your preferred language.
+2. Pick a small project (e.g. enhance one of your previous Fable 5 games with better art or audio).
+3. Use the workflows and tool recommendations in the guide.
+4. Share what you learn!
 
 ## Tags
 
-`#vr` `#3d` `#agent` `#game-dev` `#unity` `#vibegame`
+`#vibe-coding` `#ai-game-dev` `#fable5` `#game-dev` `#threejs` `#godot` `#unity` `#procedural` `#rapid-prototyping`
+
+---
+
+Maintained bilingually. Both English and Chinese versions should be kept up to date.
