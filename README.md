@@ -11,9 +11,10 @@ This repository has evolved from a 3D/VR idea collection into a focused manual f
 
 ## What is "Vibe Game Development"?
 
-Vibe coding means describing what you want at a high level and letting strong AI models (combined with image generation, 3D tools, MCP servers, etc.) handle the heavy lifting of implementation, iteration, and even asset integration.
+Vibe coding means describing what you want at a high level and letting strong AI models (combined with image generation, 3D tools, MCP servers, etc.) handle the heavy lifting, iteration, and even asset integration.
 
 This handbook focuses on real-world patterns that work in 2026:
+
 - Using Claude Fable 5 (and similar) for rapid full-game prototyping
 - Hybrid workflows (AI image gen + AI coding)
 - 2D, 3D (Three.js), Godot, Unity, VRChat, and no-engine approaches
@@ -23,6 +24,7 @@ This handbook focuses on real-world patterns that work in 2026:
 ## Contents
 
 The main handbook covers:
+
 - Fable 5 capabilities for game dev
 - 2D games (danmaku, rhythm, pixel, platformers)
 - 3D web experiences with Three.js
@@ -43,29 +45,10 @@ Reusable AI workflow skills live under [`skills/`](./skills/).
 
 `game-concept-refiner` guides a conversation from a rough game idea to a concise prompt for a planning model. It asks about one design layer at a time, protects the author's own taste, separates fixed anchors from open decisions, and avoids over-specifying the downstream planner.
 
-One-shot install to the default Codex skill directory:
+Install with the standard skills CLI:
 
 ```bash
-npx --yes https://github.com/asashiki/vibe-game/archive/refs/heads/main.tar.gz install game-concept-refiner
-```
-
-The default destination is `~/.codex/skills/game-concept-refiner`. To install into another local skill directory:
-
-```bash
-npx --yes https://github.com/asashiki/vibe-game/archive/refs/heads/main.tar.gz install game-concept-refiner --target ~/.claude/skills
-```
-
-For a persistent global installer:
-
-```bash
-npm install -g https://github.com/asashiki/vibe-game/archive/refs/heads/main.tar.gz
-vibe-game-skill install game-concept-refiner
-```
-
-To refresh an existing copy:
-
-```bash
-vibe-game-skill install game-concept-refiner --force
+npx skills add https://github.com/asashiki/vibe-game --skill game-concept-refiner
 ```
 
 ## Community Contributions
