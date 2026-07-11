@@ -35,6 +35,34 @@ The main handbook covers:
 - AI art, 3D modeling (Seed3D, Meshy, etc.), and audio pipelines
 - Resources and community projects
 
+## Reusable Skills
+
+Reusable AI workflow skills live under [`skills/`](./skills/).
+
+### Game Concept Refiner
+
+`game-concept-refiner` guides a conversation from a rough game idea to a concise prompt for a planning model. It asks about one design layer at a time, protects the author's own taste, separates fixed anchors from open decisions, and avoids over-specifying the downstream planner.
+
+Install this repository with npm, then copy the skill into your local skill directory:
+
+```bash
+npm install -g github:asashiki/vibe-game
+vibe-game-skill install game-concept-refiner
+```
+
+The default destination is `~/.codex/skills/game-concept-refiner`. You can specify another directory:
+
+```bash
+vibe-game-skill install game-concept-refiner --target ~/.claude/skills
+```
+
+To refresh an existing copy after the repository changes:
+
+```bash
+npm install -g github:asashiki/vibe-game
+vibe-game-skill install game-concept-refiner --force
+```
+
 ## Community Contributions
 
 This is primarily a handbook, but we still welcome contributions:
