@@ -1,0 +1,16 @@
+{
+  "name": "vibe-game-skills",
+  "version": "0.1.0",
+  "description": "Reusable AI game-development skills from the vibe-game handbook.",
+  "private": true,
+  "bin": {
+    "vibe-game-skill": "bin/vibe-game-skill.js"
+  },
+  "files": [
+    "bin/",
+    "skills/"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
