@@ -46,7 +46,7 @@ Reusable AI workflow skills live under [`skills/`](./skills/).
 Install this repository with npm, then copy the skill into your local skill directory:
 
 ```bash
-npm install -g github:asashiki/vibe-game
+npm install -g https://github.com/asashiki/vibe-game/archive/refs/heads/main.tar.gz
 vibe-game-skill install game-concept-refiner
 ```
 
@@ -59,7 +59,7 @@ vibe-game-skill install game-concept-refiner --target ~/.claude/skills
 To refresh an existing copy after the repository changes:
 
 ```bash
-npm install -g github:asashiki/vibe-game
+npm install -g https://github.com/asashiki/vibe-game/archive/refs/heads/main.tar.gz
 vibe-game-skill install game-concept-refiner --force
 ```
 
