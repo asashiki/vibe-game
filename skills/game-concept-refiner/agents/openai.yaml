@@ -1,0 +1,3 @@
+interface:
+  display_name: "游戏灵感精炼器"
+  short_description: "逐块讨论游戏创意，并压缩成给规划 AI 的短 prompt"
