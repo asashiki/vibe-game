@@ -43,23 +43,28 @@ Reusable AI workflow skills live under [`skills/`](./skills/).
 
 `game-concept-refiner` guides a conversation from a rough game idea to a concise prompt for a planning model. It asks about one design layer at a time, protects the author's own taste, separates fixed anchors from open decisions, and avoids over-specifying the downstream planner.
 
-Install this repository with npm, then copy the skill into your local skill directory:
+One-shot install to the default Codex skill directory:
+
+```bash
+npx --yes https://github.com/asashiki/vibe-game/archive/refs/heads/main.tar.gz install game-concept-refiner
+```
+
+The default destination is `~/.codex/skills/game-concept-refiner`. To install into another local skill directory:
+
+```bash
+npx --yes https://github.com/asashiki/vibe-game/archive/refs/heads/main.tar.gz install game-concept-refiner --target ~/.claude/skills
+```
+
+For a persistent global installer:
 
 ```bash
 npm install -g https://github.com/asashiki/vibe-game/archive/refs/heads/main.tar.gz
 vibe-game-skill install game-concept-refiner
 ```
 
-The default destination is `~/.codex/skills/game-concept-refiner`. You can specify another directory:
+To refresh an existing copy:
 
 ```bash
-vibe-game-skill install game-concept-refiner --target ~/.claude/skills
-```
-
-To refresh an existing copy after the repository changes:
-
-```bash
-npm install -g https://github.com/asashiki/vibe-game/archive/refs/heads/main.tar.gz
 vibe-game-skill install game-concept-refiner --force
 ```
 
