@@ -29,6 +29,7 @@
   - Live toys: https://mrdoob.github.io/toys/
   - 3D Earth demo 等见 X 书签。
 - Godot + MCP/插件：Fable 5 驱动完整游戏（Blender 建模 + Godot 逻辑）。推荐 Godot AI MCP。
+- GodotMaker: 它是一个面向 Godot 的自动化游戏开发工作流。你给它一个游戏想法，它会先整理成 GDD，然后驱动 Agent 自动完成：https://github.com/RandallLiuXin/GodotMaker
 - Unity：VRChat 世界 + VR 游戏快速制作（1 周从零），脚本、着色器移植。
 - WebXR：浏览器 VR 原型。
 
